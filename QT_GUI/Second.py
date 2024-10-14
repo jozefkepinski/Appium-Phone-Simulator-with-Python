@@ -81,7 +81,7 @@ class Ui_SecondWindow(object):
         # Background init
         self.backgroundView = QtWidgets.QGraphicsView(self.centralwidget)
         self.backgroundView.setGeometry(QtCore.QRect(0, 0, 800, 600))
-        self.backgroundView.setStyleSheet("background-image: url(:/Background/ACN_background_warm_APP.png)")
+        self.backgroundView.setStyleSheet("background-image: url(:/Background/background_warm_APP.png)")
         self.backgroundView.setObjectName("backgroundView")
         # TOP Buttons setup
         self.DisconnectButton = QtWidgets.QPushButton(self.centralwidget, clicked = lambda: init_functions.end_session_down(self.centralwidget))

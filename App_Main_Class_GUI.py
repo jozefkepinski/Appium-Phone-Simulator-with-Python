@@ -78,7 +78,7 @@ menu_top_frame = Frame(gui, bg='deepskyblue3', width=800)
 
 # Image Data
 img = ImageTk.PhotoImage(Image.open(main_path + "\\Resources\\Images\\PHONE_small.png"))
-img_welcome_view = ImageTk.PhotoImage(Image.open(main_path + "\\Resources\\Images\\ACN_background_Welcome.png"))
+img_welcome_view = ImageTk.PhotoImage(Image.open(main_path + "\\Resources\\Images\\background_warm_APP.png"))
 
 # Add text widget to display logging info
 log_area = scrolled_text.ScrolledText(height=7, name="log_area", state='normal')
@@ -113,7 +113,7 @@ def message_info(msg):
 def message_authors():
     """Show information about authors"""
     global authors
-    mess.showinfo(title="ACNs Authors:", message=str(authors))
+    mess.showinfo(title="Authors:", message=str(authors))
 
 
 def clear_logs():
@@ -463,7 +463,7 @@ bt_connect.grid(row=0, column=0, ipadx=20, pady=110, sticky="N")
 bt_exit = Button(intro_center, text="Exit", command=exit_now, bg='firebrick2', font=("Times New Roman", 12))
 bt_exit.grid(row=0, column=0, ipadx=30, pady=220, sticky="N")
 
-bt_authors = Button(intro_center, text="ACNs ARE", command=message_authors, bg='#FF7D40', font=("Times New Roman", 7))
+bt_authors = Button(intro_center, text="Authors", command=message_authors, bg='#FF7D40', font=("Times New Roman", 7))
 bt_authors.grid(row=0, column=0, ipadx=2, padx=80, pady=80, sticky="SE")
 
 # MAIN APP GUI START and REFRESH
