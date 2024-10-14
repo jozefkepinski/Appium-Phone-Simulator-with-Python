@@ -1,9 +1,8 @@
 """
 #######################################################################################################################
 # Framework for APPIUM connectivity
-# Project : Internal
+# Project : Appium Phone Simulator with Python
 # Authors: Pawel Grzesiuk, Ryszard Zajac, Jacek Kalis, Jozef Kepinski, Marcin Murawski
-# @accenture.com
 #######################################################################################################################
 """
 import tkinter
