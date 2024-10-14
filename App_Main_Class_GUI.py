@@ -141,11 +141,12 @@ sys.stdout = StdOutCatch()
 def driver_init(driver_instance):
     """Initialize android webdriver"""
     logger.info("Connecting driver...")
-
+    device_id = "None"
     # Gain values of connected devices to display them on main app
     create_driver, init_functions = initialize_driver(driver_instance)
     device_model = create_driver.capabilities["deviceModel"]
-    device_id = create_driver.capabilities["deviceId"]
+    if "avd" not in create_driver.capabilities.keys():
+        device_id = create_driver.capabilities["deviceId"]
 
     logger.info("Driver connected.")
 
@@ -294,7 +295,10 @@ def driver_init(driver_instance):
     Label(ctr_up, text="Device Address:", bg="darkseagreen2").grid(row=2, column=0, padx=10, pady=10)
     entry_doc = Entry(ctr_up, background="orange")
     entry_doc.grid(row=2, column=1)
-    entry_doc.insert(10, device_id)
+    if "avd" not in create_driver.capabilities.keys():
+        entry_doc.insert(10, device_id)
+    else:
+        entry_doc.insert(10, "AVD")
 
     # Row 0 with label
     Label(ctr_left, text="Commands :", bg="darkslategray1").grid(row=0, column=0, ipadx=10, pady=10)

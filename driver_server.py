@@ -1,10 +1,11 @@
 # import logging
-from appium import webdriver
-from appium.options.android import UiAutomator2Options
-from appium.webdriver.appium_service import AppiumService
 
 import json
 import os
+
+from appium import webdriver
+from appium.options.android import UiAutomator2Options
+from appium.webdriver.appium_service import AppiumService
 
 
 class Driver:

@@ -3,11 +3,11 @@
   "appium_host": "127.0.0.1",
   "newCommandTimeout": 5000,
   "avd": {
-    "platformName" : "Android_AVD",
+    "platformName" : "Android",
     "platformVersion" : "13",
-    "deviceName" : "Android",
-    "automationName" : "uiautomator2",
-    "avd" : "Pixel_3a"},
+    "deviceName" : "emulator-5554",
+    "automationName" : "UiAutomator2",
+    "avd" : "Pixel_7"},
   "usb": {
     "platformName" : "Android_USB",
     "platformVersion" : "13",
