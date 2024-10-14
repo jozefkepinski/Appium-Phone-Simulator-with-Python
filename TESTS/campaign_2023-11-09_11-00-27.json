@@ -1,0 +1,40 @@
+{
+    "campaigns": {
+        "stability": {
+            "test_cases": {
+                "jozek_test_case_1": [
+                    {
+                        "step_id": 1,
+                        "test_step": "press_home"
+                    },
+                    {
+                        "step_id": 2,
+                        "test_step": "open_calendar"
+                    },
+                    {
+                        "step_id": 3,
+                        "test_step": "press_home"
+                    }
+                ]
+            }
+        },
+        "performance": {
+            "test_cases": {
+                "jozek_test_case_2": [
+                    {
+                        "step_id": 1,
+                        "test_step": "press_home"
+                    },
+                    {
+                        "step_id": 2,
+                        "test_step": "open_calendar"
+                    },
+                    {
+                        "step_id": 3,
+                        "test_step": "press_home"
+                    }
+                ]
+            }
+        }
+    }
+}

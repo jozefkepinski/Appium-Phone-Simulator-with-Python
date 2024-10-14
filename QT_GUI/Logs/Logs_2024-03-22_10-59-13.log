@@ -1,0 +1,6 @@
+2024-03-22 11:16:44,495 - INFO - Pressed home
+2024-03-22 11:16:44,496 - DEBUG - POST http://127.0.0.1:4723/session/10a897d8-7e36-4c24-b444-c2a26db7d205/execute/sync {"script": "mobile: pressKey", "args": [{"keycode": 3}]}
+2024-03-22 11:16:44,499 - DEBUG - Resetting dropped connection: 127.0.0.1
+2024-03-22 11:16:44,601 - DEBUG - http://127.0.0.1:4723 "POST /session/10a897d8-7e36-4c24-b444-c2a26db7d205/execute/sync HTTP/1.1" 200 0
+2024-03-22 11:16:44,602 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Fri, 22 Mar 2024 10:16:44 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2024-03-22 11:16:44,603 - DEBUG - Finished Request

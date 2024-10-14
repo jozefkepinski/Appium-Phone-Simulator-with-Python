@@ -1,0 +1,12 @@
+{
+    "test cases": [
+        {
+            "step_id": 1,
+            "test_step": "press_home"
+        },
+        {
+            "step_id": 2,
+            "test_step": "open_calendar"
+        }
+    ]
+}

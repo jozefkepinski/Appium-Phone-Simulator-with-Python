@@ -1,0 +1,27 @@
+{
+  "appium_port": 4723,
+  "appium_host": "127.0.0.1",
+  "newCommandTimeout": 5000,
+  "avd": {
+    "platformName" : "Android_AVD",
+    "platformVersion" : "13",
+    "deviceName" : "Android",
+    "automationName" : "uiautomator2",
+    "avd" : "Pixel_3a"},
+  "usb": {
+    "platformName" : "Android_USB",
+    "platformVersion" : "13",
+    "deviceName" : "S96PROEEA0000055531",
+    "automationName" : "uiautomator2",
+    "device_id": "S96PROEEA0000055531"
+  },
+  "wifi": {
+    "platformName" : "Android_Wifi",
+    "platformVersion" : "10",
+    "deviceName" : "Doogee 96pro",
+    "automationName" : "uiautomator2",
+    "device_id": "192.168.1.10:5555"
+  }
+
+
+}

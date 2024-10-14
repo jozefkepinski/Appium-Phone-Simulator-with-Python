@@ -1,0 +1,22 @@
+{
+    "campaigns": {
+        "wsqaed": {
+            "test_cases": {
+                "cvad": [
+                    {
+                        "step_id": 1,
+                        "test_step": "press_home"
+                    },
+                    {
+                        "step_id": 2,
+                        "test_step": "open_calendar"
+                    },
+                    {
+                        "step_id": 3,
+                        "test_step": "press_home"
+                    }
+                ]
+            }
+        }
+    }
+}
